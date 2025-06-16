@@ -48,7 +48,7 @@ import { createContext } from "react";
 
 // 실제 일기 데이터를 관리하기 위한 함수
 function reducer(state, action) {
-  let nextState; // 추가 수정 삭제 후 변경된 스테이트를 저장하기 위한 변수
+  let nextState; //
   switch (action.type) {
     case "INIT":
       return action.data;
